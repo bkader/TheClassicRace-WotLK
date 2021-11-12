@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: TheClassicRace
+## Author: Rubensayshi (Kader Backport)
+## Version: v1.0.1
+## Notes: Keep track of the top 50 players in the race to lvl60.
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: TheClassicRace_DB
+
+libs.xml
+TheClassicRace.xml
