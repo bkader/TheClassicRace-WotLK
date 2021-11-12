@@ -3,10 +3,10 @@ local TheClassicRace = TheClassicRace
 
 -- WoW API
 local IsInGuild = IsInGuild
---[[
-	Tracker is responsible for maintaining our leaderboard data based on data provided by other parts of the system
-	to us through the EventBus.
-]]
+
+-- Tracker is responsible for maintaining our leaderboard data based on data provided by other
+-- parts of the system to us through the EventBus.
+
 ---@class TheClassicRaceTracker
 ---@field DB table<string, table>
 ---@field Config TheClassicRaceConfig

@@ -1,9 +1,7 @@
 -- Addon global
 local TheClassicRace = TheClassicRace
- --
 
---[[
-]] ---@class TheClassicRaceSerializer
+---@class TheClassicRaceSerializer
 ---@field Config TheClassicRaceConfig
 local TheClassicRaceSerializer = {}
 TheClassicRace.Serializer = TheClassicRaceSerializer

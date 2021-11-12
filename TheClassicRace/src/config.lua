@@ -98,4 +98,5 @@ local TheClassicRaceConfig = {
 		RefreshGUI = "REFRESH_GUI"
 	}
 }
+
 TheClassicRace.Config = TheClassicRaceConfig

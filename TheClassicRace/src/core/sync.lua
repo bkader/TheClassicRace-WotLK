@@ -143,11 +143,7 @@ function TheClassicRaceSync:DoSync()
 
 	-- check if we need to retry syncing after a short timeout
 	local _self = self
-	C_Timer.After(self.Config.RetrySyncWait, function()
-		if not self.isReady then
-			_self:DoSync()
-		end
-	end)
+	C_Timer.After(self.Config.RetrySyncWait, function() if not self.isReady then _self:DoSync() end end)
 
 	-- sync our data to our sync partner, he can then broadcast anything note worthy to the rest
 	-- sync our global leaderboard

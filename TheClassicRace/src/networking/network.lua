@@ -11,10 +11,6 @@ local AceComm = LibStub:GetLibrary("AceComm-3.0")
 local LibCompress = LibStub:GetLibrary("LibCompress")
 local EncodeTable = LibCompress:GetAddonEncodeTable()
 
---[[
-TheClassicRaceNetwork uses AceComm to send and receive messages over Addon channels
-and broadcast them as events once received fully over our EventBus.
---]]
 ---@class TheClassicRaceNetwork
 ---@field Core TheClassicRaceCore
 ---@field EventBus TheClassicRaceEventBus

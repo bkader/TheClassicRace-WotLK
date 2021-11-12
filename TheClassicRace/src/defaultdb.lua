@@ -1,6 +1,4 @@
 local TheClassicRace = TheClassicRace
-
----@class TheClassicRaceDefaultDB
 local TheClassicRaceDefaultDB = {
 	profile = {
 		options = {

@@ -1,10 +1,10 @@
 -- Addon global
 local TheClassicRace = TheClassicRace
 
---[[
-Leaderboard is responsible for maintaining our leaderboard data based on data provided by other parts of the system
-to us through the EventBus.
-]] ---@class TheClassicRaceLeaderboard
+-- Leaderboard is responsible for maintaining our leaderboard data based on data
+-- provided by other parts of the system to us through the EventBus.
+
+---@class TheClassicRaceLeaderboard
 ---@field Config TheClassicRaceConfig
 ---@field leaderboard table<string, table>
 local TheClassicRaceLeaderboard = {}

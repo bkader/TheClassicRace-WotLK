@@ -7,15 +7,13 @@ local LibWho = LibStub("LibWho-2.0")
 
 -- WoW API
 local C_Timer = TheClassicRace.C_Timer
- --
 
---[[
-Scanner is responsible for periodically doing a Scan to get updated results
-and relaying that back to the rest of the system through the EventBus
+-- Scanner is responsible for periodically doing a Scan to get updated results
+-- and relaying that back to the rest of the system through the EventBus
+-- This is also the place where we have the LibWho specific code, so it's not being unittested atm ...
+-- so it would be good if we can keep it small
 
-This is also the place where we have the LibWho specific code, so it's not being unittested atm ...
-so it would be good if we can keep it small
-]] ---@class TheClassicRaceScanner
+---@class TheClassicRaceScanner
 ---@field DB table<string, table>
 ---@field Core TheClassicRaceCore
 ---@field EventBus TheClassicRaceEventBus

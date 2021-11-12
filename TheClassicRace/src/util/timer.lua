@@ -78,7 +78,7 @@ local function WaitFunc(self, elapsed)
 	end
 end
 
-local WaitFrame = _G.LibCompat_WaitFrame or CreateFrame("Frame", "LibCompat_WaitFrame", UIParent)
+local WaitFrame = _G.TheClassicRace_WaitFrame or CreateFrame("Frame", "TheClassicRace_WaitFrame", UIParent)
 WaitFrame:SetScript("OnUpdate", WaitFunc)
 
 local function AddDelayedCall(ticker, oldTicker)
