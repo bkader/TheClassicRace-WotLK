@@ -17,3 +17,7 @@ Due to the `SendAddonMessage` restriction, it is not possible to send data over 
 ## How-to
 
 You can toggle the leaderboard window by either clicking the minimap icon or using **/tcr**
+
+## Show Love & Support
+
+Though it's not required, if you want to show some love and support, **PayPal**/**Paysera** donations are most welcome at **bkader[at]mail.com**.
